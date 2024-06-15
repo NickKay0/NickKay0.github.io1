@@ -1,0 +1,168 @@
+@media  screen and (max-width: 1200px) {
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+
+    html,body{
+        overflow-x: hidden;
+    }
+    body{
+        background-position:0;
+        background-attachment: fixed;
+        overflow-y: hidden;
+    }
+
+    section{
+        margin: 0;
+        /* padding: 0,5vh; */
+        padding: 0.5rem;
+    }
+
+    .logo{
+        font-size: 2rem;
+    }
+
+    #profile{
+        display: block;
+        margin-bottom: 5rem;
+        height: fit-content;
+    }
+    .profile_image{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 3vh;
+    }
+    .profile_image img{
+        height: 30vh;
+    }
+    .section__text__p1{
+        font-size: 1.5rem;
+    }
+    .section__text__p2{
+        font-size: 1.75rem;
+    }
+    .title{
+        font-size: 3rem;
+    }
+
+    .btn-container{
+        padding-top: 1vh;
+    }
+    .btn{
+        width: 20rem;
+        height: 4rem;
+        border-radius: 4rem;
+        font-size:1.5rem;
+    }
+
+    #socials-container{
+        padding-top: 0.5rem;
+        gap: 2rem;
+    }
+    .icon{
+        height: 4rem;
+    }
+
+    .text-container h2{
+        font-size: 2rem;
+    }
+    .text-container p{
+        font-size: 1.25rem;
+        padding-left: 1rem;
+    }
+
+    .about-container{
+        display: block;
+    }
+    .details-container{
+        margin-bottom: 3rem;
+    }
+    .details-container h1{
+        font-size: 2.5rem;
+    }
+    .details-container h2{
+        font-size: 1.25rem;
+        margin-bottom: 2rem;
+    }
+    .details-container .icon{
+        height: 5rem;
+    }
+    .details-container p{
+        font-size: 1.5rem;
+    }
+    .details-container hr{
+        margin-bottom: 5rem;
+        margin-top: 3rem;
+    }
+
+    .article-container h3{
+        font-size: 1.5rem;
+        padding-left: 0.5rem;
+    }
+    .article-container p{
+        font-size: 1.25rem;
+        padding-left: 2rem;
+        padding-top: 0.5rem;
+    }
+    .article-container .icon{
+        height: 4rem;
+    }
+    .z-details-container{
+        margin-bottom: 10vh;
+    }
+
+    .certif-article{
+        display: block;
+    }
+    .certif-article img{
+        width: 20rem;
+    }
+    .certif-text-container ul{
+        font-size: 1.5rem;
+    }
+    .certif-text-container li{
+        margin-bottom: 0.5rem;
+    }
+
+    .certif-text-container h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .experience-details-container {
+        margin-bottom: 2rem;
+    }
+
+    #contact{
+        width: 100%;
+    }
+    .details-container .email-text{
+        font-size: 1.1rem;
+    }
+    .email-text_2{
+        padding-left: 1.6rem;
+    }
+
+    .contact-submit{
+        gap: 1rem;
+    }
+    .contact-submit input{
+        height:2rem;
+        font-size: 1rem;
+    }
+    .contact-submit textarea{
+        min-height: 12rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+    .contact-submit button{
+        width: 10rem;
+        height: 3.5rem;
+        font-size: 1.75rem;
+        margin-bottom: 0.75rem;
+    }
+}
